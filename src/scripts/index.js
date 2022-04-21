@@ -308,8 +308,8 @@ for (let i = 0; i < DEVICES.length; i++) {
     $selectDevice.options[$selectDevice.options.length] = new Option(
         DEVICES[i].name,
         i,
-        DEVICES[i].name === 'iPhone 6/7/8',
-        DEVICES[i].name === 'iPhone 6/7/8'
+        DEVICES[i].name === 'M',
+        DEVICES[i].name === 'M'
     );
 }
 
